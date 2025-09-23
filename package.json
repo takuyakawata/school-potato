@@ -1,0 +1,29 @@
+{
+  "name": "school-potato-monorepo",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "type-check": "turbo run type-check",
+    "clean": "turbo run clean",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "web:dev": "turbo run dev --filter=web",
+    "web:build": "turbo run build --filter=web"
+  },
+  "devDependencies": {
+    "@turbo/gen": "^1.12.4",
+    "prettier": "^3.3.3",
+    "turbo": "^1.12.4",
+    "typescript": "^5"
+  },
+  "packageManager": "npm@10.9.2",
+  "engines": {
+    "node": ">=18"
+  }
+}
