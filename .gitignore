@@ -50,3 +50,5 @@ packages/*/dist/
 # ignore node_modules globally
 node_modules/
 **/node_modules/
+
+/.idea

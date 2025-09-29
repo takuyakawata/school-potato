@@ -8,7 +8,7 @@
     ],
     "paths": {
       "@/*": [
-        "./src/*"
+        ".web/src/*"
       ],
       "@school-potato/ui": [
         "../../packages/ui/src"
@@ -18,7 +18,7 @@
       ],
       "@school-potato/types": [
         "../../packages/types/src"
-      ]
+      ],
     },
     "target": "ES2017"
   },
