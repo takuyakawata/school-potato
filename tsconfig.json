@@ -19,7 +19,6 @@
     ],
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./apps/web/src/*"],
       "@school-potato/ui": ["./packages/ui/src"],
       "@school-potato/utils": ["./packages/utils/src"],
       "@school-potato/types": ["./packages/types/src"],

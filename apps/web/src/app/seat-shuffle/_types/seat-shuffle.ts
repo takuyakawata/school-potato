@@ -40,3 +40,16 @@ export interface SeatShuffleConfig {
   adjacentConstraints: string[][] // pairs of student IDs that shouldn't be adjacent
   groupConstraints: { [groupName: string]: string[] } // group name -> student IDs
 }
+
+interface SeatLayout {
+  rows: number
+  cols: number
+}
+
+interface SeatHistory {
+  id: string
+  date: string
+  students: Student[]
+  layout: SeatLayout
+  assignments: Student[]
+}
