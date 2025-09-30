@@ -12,9 +12,9 @@
   },
   "iconLibrary": "lucide",
   "aliases": {
-    "components": "@/components",
-    "utils": "@/lib/utils",
-    "ui": "@/components/ui/shadcn",
+    "components": "@school-potato/ui/shadcn",
+    "ui": "@school-potato/ui/shadcn",
+    "utils": "@school-potato/utils",
     "lib": "@/lib",
     "hooks": "@/hooks"
   },

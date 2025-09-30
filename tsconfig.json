@@ -21,7 +21,8 @@
     "paths": {
       "@school-potato/ui": ["./packages/ui/src"],
       "@school-potato/utils": ["./packages/utils/src"],
-      "@school-potato/types": ["./packages/types/src"]
+      "@school-potato/types": ["./packages/types/src"],
+      "@school-potato/ui/shadcn": ["./packages/ui/src/shadcn"],
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
